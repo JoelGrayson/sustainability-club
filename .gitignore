@@ -1,0 +1,10 @@
+/node_modules
+secret/*
+# next.js
+/.next/
+/out/
+/build
+.DS_Store
+**/.env
+data
+TODO

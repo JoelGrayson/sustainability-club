@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-image: linear-gradient(0, #96d2ab, #abefc3);
+  border-bottom: 1px solid #8f8f8f;
+}
+.header nav button {
+  background-color: #d2f0d5;
+}
+.header nav ul {
+  padding: 0;
+}
+@media (min-width: 640px) {
+  .header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 700px;
+    margin-right: 1rem;
+  }
+}
+.header nav li {
+  list-style-type: none;
+  margin-right: 0.2rem;
+}/*# sourceMappingURL=header.module.css.map */
