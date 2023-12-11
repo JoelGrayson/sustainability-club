@@ -4,7 +4,7 @@ export default function Email() {
     return <BiweeklyEmailContainer date={'Sep 29, 2023'} title={'Sustainability Affecting Riverdalians'}>
         <p>Dear upper school students and faculty,</p>
         <p></p>
-        <p>Today's weather was good timing (or perhaps bad timing) for the first sustainability club biweekly newsletter. The goal of this newsletter is to highlight different aspects of sustainability affecting us as Riverdalians. This time, we will focus on the main three effects of climate change on NYC:</p>
+        <p>Today&apos;s weather was good timing (or perhaps bad timing) for the first sustainability club biweekly newsletter. The goal of this newsletter is to highlight different aspects of sustainability affecting us as Riverdalians. This time, we will focus on the main three effects of climate change on NYC:</p>
         <p>1.5x more extreme precipitation during rainstorms (source)</p>
         <p>8–30 inches of sea level rise by 2050 (source)</p>
         <p>Increased extreme heat and coastal storms (source)</p>

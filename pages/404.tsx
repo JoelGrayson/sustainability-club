@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import Page from '../components/PageContainer';
 import Link from 'next/link';
-import { biweeklyEmailsList } from './biweekly-newsletters';
+// import { biweeklyEmailsList } from './biweekly-newsletters';
 import { useEffect, useState } from 'react';
 
 export default function NotFound() {
@@ -15,7 +15,7 @@ export default function NotFound() {
             setContent(<>
                 <h1 className='text-center'></h1>
                 <p>We could not find that biweeklyEmail. Here is the list of biweeklyEmails:</p>
-                <biweeklyEmailsList />
+                {/* <biweeklyEmailsList /> */}
             </>);
         }
     }, [url]);

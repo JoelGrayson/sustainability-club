@@ -6,7 +6,7 @@ import jdate from 'joeldate';
 export default function biweeklyEmails() {
     return <Page>
         <h1 className='text-center pb-8'>biweeklyEmails</h1>
-        <biweeklyEmailsList />
+        {/* <biweeklyEmailsList /> */}
     </Page>;
 }
 
