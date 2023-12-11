@@ -18,20 +18,11 @@ export default function Logo() {
     }, [hovering]);
     
     return <Link href='/'>
-        <div className={styles.container}
-            onMouseEnter={_=>setHovering(true)}
-            onMouseLeave={_=>setHovering(false)}
-        >
-            <div className={styles.entire}>
-                <Image src="/images/Riverdale Sustainability Club Logo.png" alt="Logo" height='80' width='80' />
-            </div>
-            <div className={styles.inner}>
-                <Image alt="Outer logo" height='80' width='80' src="/images/rotatable/inner.png" />
-            </div>
-            <div className={styles.outer} style={{transform: `rotate(${deg}deg)`}}>
-                <Image alt="Inner logo" height='80' width='80' src="/images/rotatable/outer.png" />
-            </div>
-        </div>
+        <img
+            src='/images/logo.gif'
+            width={80}
+            height={80}
+        />
     </Link>;
 
 }

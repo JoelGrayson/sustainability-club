@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import Page from '../components/PageContainer';
 import Link from 'next/link';
-import { MeetingsList } from './meetings';
+import { biweeklyEmailsList } from './biweekly-newsletters';
 import { useEffect, useState } from 'react';
 
 export default function NotFound() {
@@ -10,12 +10,12 @@ export default function NotFound() {
     const [content, setContent]=useState<any>(<Link href="/"><button>Go Home</button></Link>);
 
     useEffect(()=>{
-        if (url.startsWith('/meetings/')) {
-            setTitle('Meeting Not Found');
+        if (url.startsWith('/newsletter/')) {
+            setTitle('biweeklyEmail Not Found');
             setContent(<>
                 <h1 className='text-center'></h1>
-                <p>We could not find that meeting. Here is the list of meetings:</p>
-                <MeetingsList />
+                <p>We could not find that biweeklyEmail. Here is the list of biweeklyEmails:</p>
+                <biweeklyEmailsList />
             </>);
         }
     }, [url]);

@@ -3,7 +3,7 @@ import styles from '../styles/header/header.module.css';
 import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { list as meetingsList } from '@/pages/meetings/list';
+import { list as biweeklyEmailsList } from '@/pages/biweekly-newsletters/list';
 import { useState } from 'react';
 
 export default function Header({title, children}: {title?: String, children?: any}) { //takes in parameters for <Head>
@@ -18,14 +18,17 @@ export default function Header({title, children}: {title?: String, children?: an
         </Head>
 
         <header className={styles.header}>
-            <Logo />
-            <nav>
-                <ul className='m:grid m:grid-cols-3 m:grid-rows-2 m:place-items-center'>
-                    {/* w-full m:p-0 m:grid grid-cols-3 grid-rows-2 */}
-                    <Li href="/">Home</Li>
-                    <Li href="/meetings" dropdown={meetingsList.map(e=>({ title: e.title, url: e.hyphenatedTitle }))}>Meetings</Li>
-                </ul>
-            </nav>
+            {/* <div style={{
+                maxWidth: 800
+            }}> */}
+                <nav>
+                    <Logo />
+                    <ul className='m:grid m:grid-cols-3 m:grid-rows-2 m:place-items-center'>
+                        {/* w-full m:p-0 m:grid grid-cols-3 grid-rows-2 */}
+                        <Li href="/">Home</Li>
+                    </ul>
+                </nav>
+            {/* </div> */}
         </header>
     </>;
 
