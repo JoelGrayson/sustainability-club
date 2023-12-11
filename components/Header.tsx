@@ -3,7 +3,7 @@ import styles from '../styles/header/header.module.css';
 import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { list as biweeklyEmailsList } from '@/pages/biweekly-newsletters/list';
+import { list as biweeklyEmailsList } from '@/pages/newsletter/list';
 import { useState } from 'react';
 
 export default function Header({title, children}: {title?: String, children?: any}) { //takes in parameters for <Head>
