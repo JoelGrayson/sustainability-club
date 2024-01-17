@@ -189,3 +189,15 @@ button:disabled {
 /* .btn-green { background-color: #51d751; } */
 .btn-green { background-color: #90ee90; }
 .btn-blue  { background-color: #aed8fc; }
+
+
+
+
+/* Markdown-related */
+.mt-9 {
+    margin-top: 2.25rem;
+}
+
+h1 {
+    text-align: center;
+}

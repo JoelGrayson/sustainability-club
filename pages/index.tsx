@@ -9,10 +9,12 @@ export default function Home() {
         <div>Welcome to the official Riverdale Country School Sustainability Club Website! Here you will find various information related to our club and its projects. You can browse our various biweekly newsletters, learn about upcoming and past projects, and sign up for different sustainability-related events! Feel free to also follow and browse our official sustainability instagram account linked below!</div>
         <br /><br />
         
+        <h3>Issues</h3>
         <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-            justifyItems: 'center'
+            gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))',
+            justifyItems: 'center',
+            gap: 20
         }}>
             {list.map((el, i)=>{
                 return <Link key={i} href={'/newsletter/'+el.hyphenatedTitle}>
@@ -26,5 +28,8 @@ export default function Home() {
                 </Link>
             })}
         </div>
+
+        <h3>Explanation of Climate Change</h3>
+
     </Page>;
 }
