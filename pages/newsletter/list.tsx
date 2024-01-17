@@ -5,7 +5,7 @@ export const list: Newsletter[]=
     { title: 'Sustainability Affecting Riverdalians', date: new Date('Sep 29, 2023') },
     { title: 'Meeting with Think Zero', date: new Date('Sep 29, 2023') },
     { title: 'Shopping Sustainably', date: new Date('Sep 29, 2023') },
-
+    { title: 'Takeout Food Containers', date: new Date('Sep 29, 2023') },
     
 ] as RawNewsletter[])
     .map(el=>{
