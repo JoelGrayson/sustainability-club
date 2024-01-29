@@ -43,10 +43,10 @@ export default function Header({title, children}: {title?: String, children?: an
                     display: 'inline-block'
                 }}>
                     <button className='m:!rounded-[3px]' style={{
-                        backgroundColor: route===href ? '#90ee90' : undefined,
-                        borderColor: route===href ? 'darkgreen' : undefined,
+                        backgroundColor: route===href ? '#872242' : undefined,
                         borderTopRightRadius: dropdown ? 0 : undefined,
-                        borderBottomRightRadius: dropdown ? 0 : undefined
+                        borderBottomRightRadius: dropdown ? 0 : undefined,
+                        color: 'white'
                     }}>
                         {children}
                     </button>

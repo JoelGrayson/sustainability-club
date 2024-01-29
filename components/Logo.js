@@ -19,7 +19,7 @@ export default function Logo() {
     
     return <Link href='/'>
         <img
-            src='/images/logo.gif'
+            src={`/images/logo.gif?number=`}
             width={80}
             height={80}
         />

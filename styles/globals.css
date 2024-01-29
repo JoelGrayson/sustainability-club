@@ -5,6 +5,19 @@
 /* </> */
 
 
+/* Theme */
+:root {
+    --maroon: #872242;
+    --maroon-90: #9F4E68;
+    --maroon-80: #B77A8E;
+    --maroon-70: #CFA7B3;
+    --maroon-20: #E7D3D9;
+    --maroon-10: #F3E9EC;
+    --maroon-5: #F9F4F6;
+    --forest-green: #012622;
+}
+
+
 /**|| <Font (sorted by boldness) */
 @font-face {
     font-family: Avenir;
