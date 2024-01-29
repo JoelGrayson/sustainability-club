@@ -6,6 +6,6 @@ export default function BiweeklyEmailContainer({ title, date, children }: { titl
         <h1 className='text-center'>{title}</h1>
         <p className='text-right pb-8'>{date}</p>
 
-        {children}
+        <div className='markdown-container leading-10'>{children}</div>
     </Page>;
 }

@@ -43,7 +43,7 @@ export default function Header({title, children}: {title?: String, children?: an
                     display: 'inline-block'
                 }}>
                     <button className='m:!rounded-[3px]' style={{
-                        backgroundColor: route===href ? '#872242' : undefined,
+                        backgroundColor: '#872242',
                         borderTopRightRadius: dropdown ? 0 : undefined,
                         borderBottomRightRadius: dropdown ? 0 : undefined,
                         color: 'white'
@@ -57,6 +57,7 @@ export default function Header({title, children}: {title?: String, children?: an
                     className='m:hidden'
                     style={{
                         // display: 'inline-block',
+                        backgroundColor: '#872242',
                         marginRight: '.2rem',
                         borderTopLeftRadius: 0,
                         borderBottomLeftRadius: 0,

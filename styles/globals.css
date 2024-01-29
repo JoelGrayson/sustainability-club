@@ -214,3 +214,7 @@ button:disabled {
 h1 {
     text-align: center;
 }
+
+.markdown-container p {
+    margin: 1rem 0;
+}
