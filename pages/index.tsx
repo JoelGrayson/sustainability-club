@@ -27,5 +27,6 @@ export default function Home() {
                 </Link>
             })}
         </div>
+        {/* TODO: electric buses, solar panels, electric leaf blowers, and Think Zero waste audit results */}
     </Page>;
 }
